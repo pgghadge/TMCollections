@@ -68,7 +68,7 @@ namespace TMCollections_Api.Services_New.Implementations
                     Id = Guid.NewGuid(),
                     ProductId = dto.ProductId,
                     Quantity = dto.Quantity,
-                    Price = product.Price * dto.Quantity,
+                    Price = product.Price ,
                     CartId = cart.Id // 🔑 This is now a valid FK
                 };
                 await _cartItemRepo.AddCartItemAsync(newItem);

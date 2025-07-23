@@ -1,0 +1,15 @@
+﻿# Ignore build artifacts
+bin/
+obj/
+
+# Visual Studio folder
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Others
+*.dbmdl
+*.log
+*.cache

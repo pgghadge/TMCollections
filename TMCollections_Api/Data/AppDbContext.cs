@@ -125,6 +125,15 @@ namespace TMCollections_Api.Data
                 .Property(i => i.Price)
                 .HasPrecision(18, 2);
 
+            
+            modelBuilder.Model
+                .GetEntityTypes()
+                .SelectMany(t => t.GetProperties())
+                .Where(p => p.ClrType == typeof(decimal))
+                .ToList()
+                .ForEach(p => { p.SetPrecision(18); p.SetScale(2); });
+
+           
 
 
 

@@ -21,4 +21,12 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\Models\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\Models\.editorconfig" />
+  </ItemGroup>
+
 </Project>

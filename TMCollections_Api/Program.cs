@@ -38,8 +38,18 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 builder.Services.AddScoped<IICartRepository, CartRepository>();
 builder.Services.AddScoped<ICartService, CartService>();
+
 builder.Services.AddScoped<ICartItemRepository, CartItemRepository>();
 
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
+builder.Services.AddScoped<IAddressRepository, AddressRepository>();
+builder.Services.AddScoped<IAddressService, AddressService>();
+
+
+builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 
 
 builder.Services.AddAutoMapper(typeof(Program)); // Register AutoMapper

@@ -157,6 +157,7 @@ C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\
 C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\TMCollections_Api.csproj.CoreCompileInputs.cache
 C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\TMCollections_Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\TMCollections_Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\TMCollections_Api.sourcelink.json
 C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Rutu\source\repos\TMCollections_Api\TMCollections_Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

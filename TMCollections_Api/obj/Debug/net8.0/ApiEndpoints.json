@@ -1,5 +1,95 @@
 [
   {
+    "ContainingType": "TMCollections_Api.Controllers.AddressesController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/Addresses/{addressId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TMCollections_Api.DTO.Address.UpdateAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.AddressesController",
+    "Method": "DeleteAddress",
+    "RelativePath": "api/Addresses/{addressId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.AddressesController",
+    "Method": "GetUserAddresses",
+    "RelativePath": "api/Addresses/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.AddressesController",
+    "Method": "CreateAddress",
+    "RelativePath": "api/Addresses/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TMCollections_Api.DTO.Address.CreateAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.AddressesController",
+    "Method": "GetAddress",
+    "RelativePath": "api/Addresses/details/{addressId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TMCollections_Api.Controllers.CartController",
     "Method": "AddToCart",
     "RelativePath": "api/Cart/add/{userId}",
@@ -152,6 +242,96 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.OrdersController",
+    "Method": "GetOrder",
+    "RelativePath": "api/Orders/details/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.OrdersController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/Orders/user/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TMCollections_Api.DTO.Order.PlaceOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.OrdersController",
+    "Method": "GetUserOrders",
+    "RelativePath": "api/Orders/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.PaymentsController",
+    "Method": "GetPayment",
+    "RelativePath": "api/Payments/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMCollections_Api.Controllers.PaymentsController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/Payments/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TMCollections_Api.DTO.Payment.CreatePaymentDto",
         "IsRequired": true
       }
     ],
